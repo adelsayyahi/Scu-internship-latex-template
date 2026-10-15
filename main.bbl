@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{atzori2010iot}
+Luigi Atzori, Antonio Iera, and Giacomo Morabito.
+\newblock The internet of things: A survey.
+\newblock {\em Computer Networks}, 54(15):2787--2805, 2010.
+
+\bibitem{gubbi2013iot}
+Jayavardhana Gubbi, Rajkumar Buyya, Slaven Marusic, and Marimuthu Palaniswami.
+\newblock Internet of things ({IoT}): A vision, architectural elements, and
+  future directions.
+\newblock {\em Future Generation Computer Systems}, 29(7):1645--1660, 2013.
+
+\end{thebibliography}
