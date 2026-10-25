@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="logo/chamran-logo.jpg" alt="لوگوی دانشگاه شهید چمران اهواز" width="170">
+<img src="logo/chamran-logo- white.png" alt="لوگوی دانشگاه شهید چمران اهواز" width="170">
 
 # قالب LaTeX گزارش کارآموزی کارشناسی ارشد
-### دانشگاه شهید چمران اهواز — رشته‌ی مهندسی کامپیوتر
+### دانشکده مهندسی - گروه مهندسی کامپیوتر
 
-**Chamran  Internship Template** · کلاس `chamranintern`
+**Chamran  Internship Template**
 
 ![LaTeX](https://img.shields.io/badge/LaTeX-XeLaTeX-008080?logo=latex&logoColor=white)
 ![Persian](https://img.shields.io/badge/زبان-فارسی%20(RTL)-2e7d32)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Version](https://img.shields.io/badge/version-1.0-orange)
+![Version](https://img.shields.io/badge/version-1.0.0-orange)
 
 </div>
 
@@ -18,11 +18,11 @@
 
 ## این ریپو چیست؟
 
-یک کلاس آماده‌ی LaTeX برای نوشتن **گزارش کارآموزی دانشجویان کارشناسی ارشد اینترنت اشیا** در دانشگاه شهید چمران اهواز. ساختار فصل‌ها، سرصفحه‌ی لوگودار، صفحه‌ی جلد، چکیده، فهرست‌ها و منابع مطابق قالب رسمی (فایل Word/PDF) طراحی شده است؛ شما فقط اطلاعات خود را وارد و متن فصل‌ها را بنویسید.
+یک کلاس آماده‌ی LaTeX برای نوشتن **گزارش کارآموزی دانشجویان کارشناسی ارشد** در دانشگاه شهید چمران اهواز. ساختار فصل‌ها، سرصفحه‌ی لوگودار، صفحه‌ی جلد، چکیده، فهرست‌ها و منابع مطابق قالب رسمی (فایل Word/PDF) طراحی شده است؛ شما فقط اطلاعات خود را وارد و متن فصل‌ها را بنویسید.
 
 | صفحه‌ی جلد | یک فصل نمونه | جدول نمونه |
 |:---:|:---:|:---:|
-| <img src="docs/preview-cover.png" width="230"> | <img src="docs/preview-chapter.png" width="230"> | <img src="docs/preview-table.png" width="230"> |
+| <img src="docs/preview-cover.jpg" width="230"> | <img src="docs/preview-chapter.jpg" width="230"> | <img src="docs/preview-table.jpg" width="230"> |
 
 خروجی کامل نمونه را در [`main.pdf`](main.pdf) ببینید.
 
@@ -40,7 +40,7 @@
 ## ساختار ریپو
 
 ```text
-chamran-iot-internship-template/
+Scu-internship-latex-template/
 ├── chamranintern.cls      ← کلاس اصلی (این فایل قالب است)
 ├── main.tex               ← نمونه‌ی گزارش؛ این را ویرایش کنید
 ├── references.bib         ← منابع شما (BibTeX)
@@ -75,7 +75,7 @@ chamran-iot-internship-template/
 
 ```bash
 git clone https://github.com/adelsayyahi/Scu-internship-latex-template.git
-cd chamran-iot-internship-template
+cd Scu-internship-latex-template
 latexmk main          # ساخت main.pdf
 ```
 
@@ -127,7 +127,7 @@ xelatex main
 | ۳ | مرور پیشینه و فناوری‌های مرتبط با پژوهش |
 | ۴ | شرح انجام کارآموزی |
 | ۵ | شناسایی و تعریف دقیق مسأله |
-| ۶ | راه‌حل پیشنهادی مبتنی بر اینترنت اشیا |
+| ۶ | راه‌حل پیشنهادی  |
 | ۷ | چالش‌ها و محدودیت‌های اجرا |
 | ۸ | جمع‌بندی و پیشنهادها |
 
@@ -207,13 +207,13 @@ xelatex main
 <details>
 <summary><b>English summary</b></summary>
 
-**Chamran IoT Internship Template** is a LaTeX class (`chamranintern`) for MSc Internet-of-Things internship reports at Shahid Chamran University of Ahvaz (Iran). It provides a Persian (RTL) report layout with the university logo in the header, a cover page, abstract, table of contents, eight pre-structured chapters and BibTeX references.
+**SCU Internship Template** is a LaTeX class (`chamranintern`) for MSc Internet-of-Things internship reports at Shahid Chamran University of Ahvaz (Iran). It provides a Persian (RTL) report layout with the university logo in the header, a cover page, abstract, table of contents, eight pre-structured chapters and BibTeX references.
 
 **Quick start**
 
 ```bash
-git clone https://github.com/<USERNAME>/chamran-iot-internship-template.git
-cd chamran-iot-internship-template
+git clone https://github.com/adelsayyahi/Scu-internship-latex-template.git
+cd Scu-internship-latex-template
 latexmk main        # requires XeLaTeX (TeX Live 2022+), BibTeX, latexmk
 ```
 
